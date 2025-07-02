@@ -4,11 +4,13 @@
 #include <unistd.h>
 #include <ecrt.h>
 
+    
 // 从站配置
 #define EL1809_VENDOR_ID    0x00000002
 #define EL1809_PRODUCT_CODE 0x07113052
 #define EL2809_VENDOR_ID    0x00000002
 #define EL2809_PRODUCT_CODE 0x0af93052
+
 
 // 过程数据指针
 static uint8_t *domain1_pd = NULL;
