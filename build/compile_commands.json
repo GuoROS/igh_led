@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/gbb/igh_led/build",
+  "command": "/usr/bin/cc  -I/home/gbb/ec_igh/ethercat/include  -o CMakeFiles/ethercat_control.dir/src/main.c.o -c /home/gbb/igh_led/src/main.c",
+  "file": "/home/gbb/igh_led/src/main.c"
+}
+]

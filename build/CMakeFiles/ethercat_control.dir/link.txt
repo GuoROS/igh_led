@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ethercat_control.dir/src/main.c.o -o ethercat_control   -L/home/gbb/ec_igh/ethercat/lib/.libs  -Wl,-rpath,/home/gbb/ec_igh/ethercat/lib/.libs -lethercat -lpthread -lrt 
