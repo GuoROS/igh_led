@@ -17,6 +17,7 @@ constexpr uint32_t EL2809_PRODUCT_CODE = 0x0af93052;
 // 过程数据指针
 static uint8_t* domain1_pd = nullptr;
 
+
 // 通道偏移量和位位置
 static unsigned int in_offs[16] = {0};
 static unsigned int in_bit_pos[16] = {0};
