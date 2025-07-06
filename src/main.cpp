@@ -24,6 +24,8 @@ static unsigned int in_bit_pos[16] = {0};
 static unsigned int out_offs[16] = {0};
 static unsigned int out_bit_pos[16] = {0};
 
+
+
 // EtherCAT对象
 static ec_master_t* master = nullptr;
 static ec_domain_t* domain1 = nullptr;
