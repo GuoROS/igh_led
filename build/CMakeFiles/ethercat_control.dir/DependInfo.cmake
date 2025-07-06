@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gbb/igh_led/src/main.c" "CMakeFiles/ethercat_control.dir/src/main.c.o" "gcc" "CMakeFiles/ethercat_control.dir/src/main.c.o.d"
+  "/home/gbb/igh_led/src/main.cpp" "CMakeFiles/ethercat_control.dir/src/main.cpp.o" "gcc" "CMakeFiles/ethercat_control.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

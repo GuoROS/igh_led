@@ -129,29 +129,29 @@ ethercat_control/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/build
 .PHONY : ethercat_control/fast
 
-src/main.o: src/main.c.o
+src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
 # target to build an object file
-src/main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/src/main.c.o
-.PHONY : src/main.c.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/main.i: src/main.c.i
+src/main.i: src/main.cpp.i
 .PHONY : src/main.i
 
 # target to preprocess a source file
-src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/src/main.c.i
-.PHONY : src/main.c.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/main.s: src/main.c.s
+src/main.s: src/main.cpp.s
 .PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/src/main.c.s
-.PHONY : src/main.c.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ethercat_control.dir/build.make CMakeFiles/ethercat_control.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
