@@ -204,7 +204,7 @@ int main() {
 
         // 设置输出
         for (int i = 0; i < 16; ++i) {
-            EC_WRITE_BIT(domain1_pd + out_offs[i], out_bit_pos[i], (i == light_pos));
+            EC_WRITE_BIT(domain1_pd + out_offs[i], out_bit_pos[i], 1);
         }
 
         ecrt_domain_queue(domain1);
